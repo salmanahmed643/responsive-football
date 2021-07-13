@@ -81,7 +81,6 @@ header {
     width: 330px;
     box-shadow: 10px 10px 30px rgba(0,0,0,.3);
     border-radius: 0 10px 0 10px;
-    cursor: pointer;
     transition: all .4s ease;
     overflow: hidden;
 }
@@ -116,4 +115,64 @@ header {
     line-height: 26px;
     margin: 0 0 23px;
 }
+.read_more {
+    background-color: #E02C6D;
+    padding: 15px 0;
+    text-align: center;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+.player:hover .read_more {
+    background-color: #2D25A0;
+}
+.read_more button {
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+.player:hover button {
+    background-color: #2D25A0;
+}
 /* --------------------------- main section end --------------------------- */
+
+/* -------------------------- footer section start -------------------------- */
+.footer_football {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_info {
+    width: 483.87px;
+    height: 213px;
+}
+.footer_info img {
+    width: 100%;
+}
+.footer_social {
+    width: 170px;
+    height: 32px;
+    margin: 0 auto;
+}
+.footer_social a {
+    text-decoration: none;
+    width: 32px;
+    height: 32px;
+    background: #d7d7d7;
+    color: #ffffff;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+}
+.footer_social a i {
+    transition: transform .4s ease;
+}
+.footer_social a i:hover {
+    transform: scale(1.8) rotate(360deg);
+    color: #2D25A0;
+}
+/* -------------------------- footer section end -------------------------- */
