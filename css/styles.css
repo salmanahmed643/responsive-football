@@ -458,7 +458,7 @@ main section {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 689px) and (max-device-width : 1024px) {
+@media only screen and (min-device-width : 688px) and (max-device-width : 1024px) {
         /* header section start */
         .container {
             padding: 0 20px;
@@ -486,6 +486,9 @@ main section {
 
 
         /* best player start */
+        .player_container {
+            padding: 70px 0 100px 0;
+        }
         .best_player {
             grid-template-columns: repeat(2, 1fr);
         }
