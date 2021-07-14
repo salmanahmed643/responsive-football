@@ -254,6 +254,7 @@ main section {
     margin: 0px;
     overflow: hidden;
     transition: transform 0.7s ease 0s, all 0.7s ease 0s;
+    align-items: center;
 }
 .custom_border {
     border-bottom: 2px solid #ffffff;
@@ -345,8 +346,9 @@ main section {
 
 /* ---------------------------- media query start --------------------------- */
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 480px) {
+
+/* Extra small devices (phones, 688px and down) */
+@media only screen and (max-width: 688px) {
 
 
     /* header section start */
@@ -452,6 +454,75 @@ main section {
         width: 275px;
     }
     /* footer end */
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 689px) and (max-device-width : 1024px) {
+        /* header section start */
+        .container {
+            padding: 0 20px;
+        }
+        .banner_title {
+            width: 100%;
+        }
+        .banner_title {
+            width: 100%;
+        }
+        .banner_title h1 {
+            width: 100%;
+            font-size: 40px;
+            line-height: 50px;
+        }
+        .football {
+            width: 100%;
+        }
+        .football img {
+            width: 100%;
+            height: auto;
+            margin-left: 10px;
+        }
+        /* header section end */
+
+
+        /* best player start */
+        .best_player {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        /* best player end */
+
+        /* liga premiere start*/
+    .liga {
+        margin-top: 0;
+    }
+    .liga_premiere {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .liga_left_icon, .liga_right_icon {
+        display: none;
+     }
+     .team_flag img {
+        width: 50%;
+    }
+     .match_time h2 {
+        font-size: 24px;
+        margin: 0;
+    }
+    .match_time h4 {
+        margin: 0 0 30px;
+    }
+    .match_time p {
+        color: #ffffff;
+        margin: 30px 0 0;
+        text-align: center;
+    }
+    /* liga premiere */
+
+
+    .league_table {
+        padding: 70px 0 0 0;
+    }
+
 
 }
 
